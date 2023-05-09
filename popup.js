@@ -81,9 +81,9 @@ $(".reset").click(function() {
   if(realtime>0){
     realtime=0;
 clearInterval(timer);
-  $(".time-h1").text("00:00:00");
+  $(".time-h1").text("00.00.00");
   $('.btn').prop('disabled', false);
-  $("input").val(0);
+  $("input").val(".resume");
   }
 });
 });
